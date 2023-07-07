@@ -8,7 +8,7 @@ import time
 INTENTS = Intents.all()
 bot = commands.Bot(command_prefix = "/",intents=INTENTS)
 
-TOKEN = "MTExMjY0MzI5OTIzNzQ0NTYzMg.Gn8Tny.0tMrR8h7knJvXUagiLCejGHflv4JeWH1MQMuw4" # 봇 토큰
+TOKEN = "MTEyNjg0OTEwMzgzMDIwODU0Mg.Gj2yQ4.UM34M73zysni1B7Q2n7f9LCtikwEeC3k3mNQFc" # 봇 토큰
 allotment = [] # 배정 시스템 리스트
 
 @bot.event
