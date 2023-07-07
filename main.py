@@ -4,6 +4,7 @@ from discord import *
 import datetime
 import pytz
 import time
+import os
 
 INTENTS = Intents.all()
 bot = commands.Bot(command_prefix = "/",intents=INTENTS)
